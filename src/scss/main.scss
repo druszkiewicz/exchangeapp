@@ -1,0 +1,61 @@
+@import "_normalize";
+@import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=latin-ext');
+
+
+html {
+   box-sizing: border-box;
+   background: $blue;
+   // touch-action: manipulation;
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: inherit;
+}
+
+body {
+   // touch-action: manipulation;
+   color: #fff;
+   background: $green;
+   font-family: 'Roboto';
+   font-weight: 500;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 16px;
+}
+
+.display {
+   border: 1px solid white;
+   padding: 4px 32px 4px 4px;
+   &__listPos{
+      list-style-type: none;
+      margin: 4px;
+      color: #ccc;
+      background:rgb(6, 10, 53);
+   }
+}
+
+.select {
+   text-align: center;
+}
+
+.heading {
+   touch-action: manipulation;
+   font-size: 55px;
+   margin: 0 0 64px 0;
+   padding: 0;
+}
+
+
+.main {
+   touch-action: manipulation;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+
+}
