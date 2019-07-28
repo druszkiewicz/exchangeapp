@@ -1,4 +1,4 @@
-# HydrApp
+# Exchange App
 It's a small next PWA app
 
 **mały projekt API szkolenia frontend'u, w którym biorę udział,**
